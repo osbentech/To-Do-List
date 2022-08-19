@@ -63,6 +63,13 @@ body {
   margin-top: 100px;
 }
 
+.todocontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 7px;
+}
+
 .remove-btn {
   margin-left: 150px;
 }
@@ -87,6 +94,16 @@ body {
 .span2 {
   font-style: italic;
   border: none;
+  width: 263px;
+  height: 45px;
+}
+
+#basketdel-icon {
+  display: none;
+}
+
+.checked {
+  border: #fffed3;
 }
 
 .footer {
@@ -95,7 +112,7 @@ body {
   justify-content: center;
   text-align: center;
   height: 56px;
-  width: 289.333px;
+  width: 303.333px;
   border: 1px solid #cfcfcf;
   background: #f2f2f2;
   padding: 0 7px;
