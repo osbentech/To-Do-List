@@ -1,0 +1,102 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #cfcfcf;
+}
+
+.task-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.tasks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  border: 1px solid #f2f2f2;
+  background: #fff;
+  padding: 0 7px;
+}
+
+.head {
+  color: red;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 79px;
+}
+
+.header {
+  margin: 0 10px;
+}
+
+.navside {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 10px;
+}
+
+.home:hover {
+  color: blue;
+}
+
+.contact:hover {
+  color: blue;
+}
+
+.support:hover {
+  color: blue;
+}
+
+.todo-overall {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.remove-btn {
+  margin-left: 150px;
+}
+
+.txt {
+  margin-left: 5px;
+}
+
+.todohead1,
+.todohead2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: 50px;
+  width: 287.333px;
+  border: 1px solid #f2f2f2;
+  background: #fff;
+  padding: 0 7px;
+}
+
+.span2 {
+  font-style: italic;
+  border: none;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 56px;
+  width: 289.333px;
+  border: 1px solid #cfcfcf;
+  background: #f2f2f2;
+  padding: 0 7px;
+}
