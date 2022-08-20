@@ -14,7 +14,7 @@ const sendToLocalStorage = () => {
   localStorage.setItem('list', JSON.stringify(array));
 };
 
-const section = document.querySelector('.section');
+const section = document.querySelector('section');
 section.innerHTML = `
   <div class="main-div">
     <p id="header">Today's To Do <i class="fas fa-sync"></i></p>
