@@ -1,4 +1,4 @@
-/* eslint-disable continue */
+/* eslint-disable all-rules*/
 // all imports goes here
 import './styles/main.css';
 
@@ -42,7 +42,7 @@ const createList = () => {
   trashIcon.className = 'fas fa-trash-alt icon2';
   list.append(checkboxes, listText, threeDots, trashIcon);
   // Add event to checkboxes
-  let count = 1;
+  // let count = 1;
   checkboxes.addEventListener('click', () => {
     threeDots.classList.toggle('remove-icon-active');
     trashIcon.classList.toggle('icon2');
@@ -72,7 +72,7 @@ const createList = () => {
     const empty = [];
     for (let i = 0; i < getting.length; i += 1) {
       if (getting[i].completed === true) {
-        continue;
+        // continue;
       }
       empty.push(getting[i]);
     }
@@ -87,7 +87,7 @@ const createList = () => {
     const empty = [];
     for (let i = 0; i < getFromLocalStorage.length; i += 1) {
       if (result[0].description === getFromLocalStorage[i].description) {
-        continue;
+        // continue;
       }
       empty.push(getFromLocalStorage[i]);
     }
