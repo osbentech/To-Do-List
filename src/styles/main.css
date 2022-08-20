@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 body {
   margin: 0;
@@ -54,15 +55,9 @@ body {
   color: blue;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-
 form {
   display: flex;
   flex-direction: column;
-}
-
-body {
-  background-color: #f6f6f6;
 }
 
 .main-div {
@@ -143,87 +138,3 @@ i {
 .changeBg {
   background-color: #fffed3;
 }
-
-
-/* .todo-overall {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin-top: 100px;
-}
-
-.todocontainer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 7px;
-  height: 50px;
-  width: auto;
-  border: 1px solid #f2f2f2;
-}
-
-.todo {
-  background: #fff;
-}
-
-.remove-btn {
-  margin-left: 150px;
-}
-
-.txt {
-  margin-left: 5px;
-}
-
-.todohead1,
-.todohead2 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  text-align: center;
-  height: 50px;
-  width: 287.333px;
-  border: 1px solid #f2f2f2;
-  background: #fff;
-  padding: 0 7px;
-}
-
-.span2 {
-  font-style: italic;
-  border: none;
-  width: 250px;
-  height: 45px;
-}
-
-.hiden {
-  scale: 0;
-}
-
-.dotdisable {
-  display: none;
-}
-
-.checked {
-  background-color:#fffed3;
-}
-
-.checkTodo {
-  text-decoration: line-through;
-}
-
-#f {
-  margin-left: 150px;
-}
-
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 56px;
-  width: 303.333px;
-  border: 1px solid #cfcfcf;
-  background: #f2f2f2;
-  padding: 0 7px;
-} */
