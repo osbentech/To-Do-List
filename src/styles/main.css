@@ -92,6 +92,10 @@ input {
   border-bottom: 1px solid #d0d0d0;
 }
 
+.input:checked + .listContent {
+  text-decoration: line-through;
+}
+
 p {
   padding: 10px;
 }
@@ -101,6 +105,7 @@ p {
   color: #989898;
   margin: 0;
   padding: 25px;
+  order: 111111111;
 }
 
 #clear:hover {
