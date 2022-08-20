@@ -165,7 +165,19 @@ const createList = () => {
   });
 
   // Remove from list event
-  
+  trashIcon.addEventListener('click', () => {
+    form.removeChild(list);
+    const getFromLocalStorage = JSON.parse(localStorage.getItem('list'));
+    const result = getFromLocalStorage.filter((word) => word.description === listText.textContent);
+    const empty = [];
+    for (let i = 0; i < getFromLocalStorage.length; i += 1) {
+      if (result[0].description === getFromLocalStorage[i].description) {
+        continue;
+      }
+      empty.push(getFromLocalStorage[i]);
+    }
+    localStorage.setItem('list', JSON.stringify(empty));
+  });
 
   threeDots.addEventListener('click', () => {
     const editInput = document.createElement('input');
