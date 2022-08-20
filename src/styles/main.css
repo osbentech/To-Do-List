@@ -54,7 +54,98 @@ body {
   color: blue;
 }
 
-.todo-overall {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+
+.main-div {
+  box-shadow: 1px 6px 17px -1px rgba(34, 60, 80, 0.19);
+  width: 40vw;
+  font-family: Poppins, serif;
+  font-size: 18px;
+  background-color: #fff;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.input-div {
+  padding: 15px;
+  border-bottom: 1px solid #d0d0d0;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  border: none;
+  padding: 15px;
+  font-style: oblique;
+  font-size: 18px;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+p {
+  padding: 10px;
+}
+
+#clear {
+  text-align: center;
+  color: #989898;
+  margin: 0;
+  padding: 25px;
+}
+
+#clear:hover {
+  cursor: pointer;
+}
+
+i {
+  float: right;
+}
+
+#header {
+  font-weight: bold;
+  padding: 15px;
+}
+
+.listContent {
+  flex: 2;
+  border: none;
+  margin: 18px 0;
+}
+
+.listContent-disable {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.remove-icon-active {
+  display: none;
+}
+
+.icon2 {
+  display: none;
+}
+
+.changeBg {
+  background-color: #fffed3;
+}
+
+
+/* .todo-overall {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -135,4 +226,4 @@ body {
   border: 1px solid #cfcfcf;
   background: #f2f2f2;
   padding: 0 7px;
-}
+} */
