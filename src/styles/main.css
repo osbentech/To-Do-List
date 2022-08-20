@@ -68,6 +68,13 @@ body {
   align-items: center;
   justify-content: space-between;
   margin: 0 7px;
+  height: 50px;
+  width: auto;
+  border: 1px solid #f2f2f2;
+}
+
+.todo {
+  background: #fff;
 }
 
 .remove-btn {
@@ -94,16 +101,28 @@ body {
 .span2 {
   font-style: italic;
   border: none;
-  width: 263px;
+  width: 250px;
   height: 45px;
 }
 
-#basketdel-icon {
+.hiden {
+  scale: 0;
+}
+
+.dotdisable {
   display: none;
 }
 
 .checked {
-  border: #fffed3;
+  background-color:#fffed3;
+}
+
+.checkTodo {
+  text-decoration: line-through;
+}
+
+#f {
+  margin-left: 150px;
 }
 
 .footer {
