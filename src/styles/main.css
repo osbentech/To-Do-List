@@ -108,6 +108,13 @@ p {
   order: 111111111;
 }
 
+.clearAll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
 #clear:hover {
   cursor: pointer;
 }
