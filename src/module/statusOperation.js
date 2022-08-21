@@ -15,7 +15,10 @@ export default function updateStatus() {
 
 export const clearAllCompleteted = () => {
   const taskArray = JSON.parse(localStorage.getItem('list'));
- 
+  const newTaskArray = taskArray.filter((task) => !task.completed);
+  for (let i = 0; i < newTaskArray.length; i += 1) {
+    newTaskArray[i].id = i;
+  }
   console.log(newTaskArray);
   localStorage.setItem('list', JSON.stringify(newTaskArray));
   updateWindow();
