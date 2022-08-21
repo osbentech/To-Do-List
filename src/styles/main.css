@@ -68,7 +68,7 @@ form {
   background-color: #fff;
 }
 
-section {
+.div {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -90,6 +90,12 @@ input {
   font-style: oblique;
   font-size: 18px;
   border-bottom: 1px solid #d0d0d0;
+}
+
+.listContent {
+  flex: 2;
+  border: none;
+  margin: 18px 0;
 }
 
 .input:checked + .listContent {
@@ -126,12 +132,6 @@ i {
 #header {
   font-weight: bold;
   padding: 15px;
-}
-
-.listContent {
-  flex: 2;
-  border: none;
-  margin: 18px 0;
 }
 
 .listContent-disable {
