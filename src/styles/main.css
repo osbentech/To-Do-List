@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #cfcfcf;
+}
+
+.task-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.tasks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  border: 1px solid #f2f2f2;
+  background: #fff;
+  padding: 0 7px;
+}
+
+.head {
+  color: red;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 79px;
+}
+
+.header {
+  margin: 0 10px;
+}
+
+.navside {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 10px;
+}
+
+.home:hover {
+  color: blue;
+}
+
+.contact:hover {
+  color: blue;
+}
+
+.support:hover {
+  color: blue;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-div {
+  box-shadow: 1px 6px 17px -1px rgba(34, 60, 80, 0.19);
+  width: 40vw;
+  font-family: Poppins, serif;
+  font-size: 18px;
+  background-color: #fff;
+}
+
+.div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.input-div {
+  padding: 15px;
+  border-bottom: 1px solid #d0d0d0;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  border: none;
+  padding: 15px;
+  font-style: oblique;
+  font-size: 18px;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.listContent {
+  flex: 2;
+  border: none;
+  margin: 18px 0;
+}
+
+.input:checked + .listContent {
+  text-decoration: line-through;
+}
+
+p {
+  padding: 10px;
+}
+
+#clear {
+  text-align: center;
+  color: #989898;
+  margin: 0;
+  padding: 25px;
+  order: 111111111;
+}
+
+.clearAll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+#clear:hover {
+  cursor: pointer;
+}
+
+i {
+  float: right;
+}
+
+#header {
+  font-weight: bold;
+  padding: 15px;
+}
+
+.listContent-disable {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.remove-icon-active {
+  display: none;
+}
+
+.icon2 {
+  display: none;
+}
+
+.changeBg {
+  background-color: #fffed3;
+}
