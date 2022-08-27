@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple steps.
 - **Webpack:** used as a bundle to compile JavaScript modules.
 
 ## 🌎 Live Demo:
-- [toDoList](https://osbentech.github.io/To-Do-list/
+- [toDoList](https://osbentech.github.io/To-Do-list/dist
 
 
 ## Author
