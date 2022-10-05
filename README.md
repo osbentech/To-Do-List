@@ -33,7 +33,6 @@ To get a local copy up and running follow these simple steps.
 ## 🌎 Live Demo:
 - [toDoList] https://osbentech.github.io/To-Do-list/
 
-
 ## Author
 
 👤 **Benjamin Ejike**
